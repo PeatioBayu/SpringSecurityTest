@@ -113,8 +113,7 @@
 			<scope>system</scope>
 			<systemPath>C:\dbSchemaAlgo\lib\ojdbc6.jar</systemPath>
 		</dependency>
-
-
+		
 		<!-- logging, slf4j -->
 		<dependency>
 			<groupId>org.slf4j</groupId>

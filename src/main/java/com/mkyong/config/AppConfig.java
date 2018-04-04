@@ -44,8 +44,8 @@ public class AppConfig {
 	public BasicDataSource dataSource() {
 		
 		BasicDataSource ds = new BasicDataSource();
-	    ds.setDriverClassName("oracle.jdbc.Driver");
-		ds.setUrl("jdbc:oracle:thin:localhost:1521:xe");
+	    ds.setDriverClassName("oracle.jdbc.driver.OracleDriver");
+		ds.setUrl("jdbc:oracle:thin:@localhost:1521:xe");
 		ds.setUsername("TSP");
 		ds.setPassword("oracle8770");;
 		return ds;
